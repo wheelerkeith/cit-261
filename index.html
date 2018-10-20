@@ -2,33 +2,56 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="main.css">
         <title>Keith's Website</title>
     </head>
 
     <body>
 
+        <div class="navigation" id="mynav">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+
         <header>
-            <h1>My car quiz</h1>
-            <h3>HTML, CSS, AJAX, JSON, and External API's</h3>
+            <h1>3 Picture Website</h1>
+            <h3>HTML, CSS, javascript</h3>
         </header>
-        
-        <h1>What is the best car?</h1>>
-
-        <form action="#" method="GET">
-            <h3>What is the best car?</h3>
-            <input type="radio" id="button1">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button2">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button3">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button4">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button5">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button6">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button7">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button8">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="radio" id="button9">Chevy Camaro<img src="https://crdms.images.consumerreports.org/prod/cars/cr/car-versions/3004-2016-chevrolet-camaro-ss" width="100" height="100"><br/>
-            <input type="submit" id="carSubmit">
-        </form>
 
 
+        <div class="slideshow">
+            <!-- The full-width images -->
+            <div class="slides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="forest.jpg" style="width:100%">
+                <div class="text">Forest</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="lake.jpg" style="width:100%">
+                <div class="text">Lake</div>
+            </div>
+
+            <div class="slides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="road.jpg" style="width:100%">
+                <div class="text">Road</div>
+            </div>
+
+            <!-- The buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <!-- The dots/circles -->
+            <div style="text-align: center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>

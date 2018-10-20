@@ -1,16 +1,28 @@
-//button clicks
-document.getElementById('button1').addEventListener('click', sendForm);
-document.getElementById('button2').addEventListener('click', sendForm);
-document.getElementById('button3').addEventListener('click', sendForm);
-document.getElementById('button4').addEventListener('click', sendForm);
-document.getElementById('button5').addEventListener('click', sendForm);
-document.getElementById('button6').addEventListener('click', sendForm);
-document.getElementById('button7').addEventListener('click', sendForm);
-document.getElementById('button8').addEventListener('click', sendForm);
-document.getElementById('button9').addEventListener('click', sendForm);
+var slideIndex = 1;
+showSlides(slideIndex);
 
+// controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
 
-// function to send the result
-function sendForm() {
-    
+// which image
+function currentSlide(n) {
+    showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("slides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
 }

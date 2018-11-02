@@ -11,6 +11,12 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+var canvas = document.getElementById("newCan");
+var text = canvas.getContext("2d");
+
+text.font = "40px Arial";
+text.strokeText("Hello World", 10, 50);
+
 function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("slides");

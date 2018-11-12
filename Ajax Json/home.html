@@ -1,0 +1,31 @@
+<!-- This page was redesigned based on the work by Shaun Densley -->
+<!-- https://github.com/Twixx1987/cit261 -->
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <script src="index.js"></script>
+      <title>Ajax Json and Local Storage</title>
+   </head>
+
+   <body onload="openJson('list.json', loadOptions)">
+      <div id="main">
+         <div id="container">
+            <h1>Fast and Furious Cars</h1>
+            <div>
+               <p>Choose a movie from the dropdown</p>
+               <form id="numberSelect" action="" method="post">
+                  <select id="movieNumber" name="number" onmousedown="openJson('faf.json', movieSelect)"></select>
+               </form>
+            </div>
+            <div id="displayList"></div>
+
+            <h2>The Local Storage File</h2>
+            <div id="displayStorage"></div>
+         </div>
+      </div>
+      
+   </body>   
+</html>

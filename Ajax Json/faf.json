@@ -1,0 +1,95 @@
+{
+   "series": "The Fast and Furious",
+   "numbers": [
+      {
+         "number": "The Fast and the Furious",
+         "cars": [
+            {
+               "name": "Dom's Charger",
+               "year": "1970",
+               "make": "Dodge",
+               "HP": "900"
+            },
+            {
+               "name": "Brian's Eclipse",
+               "year": "1995",
+               "make": "Mitsubishi",
+               "HP": "210"
+            },
+            {
+               "name": "Dom's RX-7",
+               "year": "1993",
+               "make": "Mazda",
+               "HP": "255"
+            },
+            {
+               "name": "Brian's Supra Mark IV",
+               "year": "1994",
+               "make": "Toyota",
+               "HP": "Around 600"
+            }
+
+         ]
+      },
+      {
+         "number": "2 Fast 2 Furious",
+         "cars": [
+            {
+               "name": "Brian's Skyline GT-R R34",
+               "year": "1999",
+               "make": "Nissan",
+               "HP": "280"
+            },
+            {
+               "name": "Roman's Eclipse Spyder GTS",
+               "year": "2003",
+               "make": "Mitsubishi",
+               "HP": "210"
+            },
+            {
+               "name": "Dom's RX-7",
+               "year": "1993",
+               "make": "Mazda",
+               "HP": "255"
+            },
+            {
+               "name": "Brian's Supra Mark IV",
+               "year": "1994",
+               "make": "Toyota",
+               "HP": "Around 600"
+            }
+
+         ]
+      },
+      {
+         "number": "The Fast and the Furious: Tokyo Drift",
+         "cars": [
+            {
+               "name": "Sean's Mustang Fastback",
+               "year": "1967",
+               "make": "Ford",
+               "HP": "500"
+            },
+            {
+               "name": "Takashi's Fairlady Z33(350Z)",
+               "year": "2003",
+               "make": "Nissan",
+               "HP": "460"
+            },
+            {
+               "name": "Han's RX-7 Veilside",
+               "year": "Unknown",
+               "make": "Mazda",
+               "HP": "Around 500"
+            },
+            {
+               "name": "Dom's Road Runner",
+               "year": "1970",
+               "make": "Plymouth",
+               "HP": "Around 600"
+            }
+
+         ]
+      }
+   ]
+}

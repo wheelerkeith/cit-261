@@ -1,0 +1,15 @@
+td {
+   padding: 5px;
+   border: thin solid green;
+   background-color: aquamarine;
+}
+
+th {
+   padding: 5px;
+   border: thin solid green;
+   background-color: aqua;
+}
+
+table {
+   border: thick solid black;
+}

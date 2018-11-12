@@ -9,14 +9,14 @@
       <title>Ajax Json and Local Storage</title>
    </head>
 
-   <body onload="openJson('list.json', loadOptions)">
+   <body onload="openJson('/list.json', loadOptions)">
       <div id="main">
          <div id="container">
             <h1>Fast and Furious Cars</h1>
             <div>
                <p>Choose a movie from the dropdown</p>
                <form id="numberSelect" action="" method="post">
-                  <select id="movieNumber" name="number" onmousedown="openJson('faf.json', movieSelect)"></select>
+                  <select id="movieNumber" name="number" onmousedown="openJson('/faf.json', movieSelect)"></select>
                </form>
             </div>
             <div id="displayList"></div>

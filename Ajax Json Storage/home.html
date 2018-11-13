@@ -16,14 +16,10 @@
             <div>
                <p>Choose a movie from the dropdown</p>
                <form id="numberSelect" action="" method="post">
-                  <select id="movieNumber" name="number" onmousedown="openJson('faf.json', movieSelect)"></select>
+                  <select id="movieNumber" name="number" onmouseup="openJson('faf.json', movieSelect)"></select>
                </form>
             </div>
             <div id="displayList"></div>
-
-            <h2>The Local Storage File</h2>
-            <div id="displayStorage"></div>
-         </div>
       </div>
       
       <script src="index.js"></script>

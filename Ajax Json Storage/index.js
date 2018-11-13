@@ -27,33 +27,6 @@ function loadOptions(xhttp) {
    }
 }
 
-// saves file to storage
-function saveStorage(xhttp) {
-   // check for storage support
-   if (typeof (Storage) !== "undefined") {
-      // create object and add all properties into local storage
-      var movieObj = JSON.parse(xhttp.responseText);
-      for (var number in movieObj.numbers) {
-         var key = movieObj.numbers[number].number;
-         var value = JSON.stringify(movieObj.numbers[number].cars);
-
-         // if the displayStorage element is empty then put localstorage into it
-         if (!document.getElementById("displayStorage").innerHTML) {
-            // display
-            document.getElementById("displayStorage").innerHTML += localStorage.getItem(key);
-         }
-
-         if (localStorage.getItem(key) == value) {
-            console.log("Data already in storage " + localStorage.getItem(key));
-            break;
-         }
-
-         // append to local storage
-         localStorage.setItem(key, value);
-      }
-   }
-}
-
 // display the movie
 function movieSelect(xhttp) {
    // save file to an object and display it on the screen
@@ -66,7 +39,6 @@ function movieSelect(xhttp) {
    }
 
    document.getElementById("displayList").innerHTML = txt;
-//   saveStorage(xhttp);
 }
 
 function displayMovie(obj) {

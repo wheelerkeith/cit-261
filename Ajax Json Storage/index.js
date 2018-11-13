@@ -66,7 +66,7 @@ function movieSelect(xhttp) {
    }
 
    document.getElementById("displayList").innerHTML = txt;
-   saveStorage(xhttp);
+//   saveStorage(xhttp);
 }
 
 function displayMovie(obj) {

@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="utf-8">
-      <title>Css Transforms/Transitions/Animations</title>
-   </head>
 
-   <body>
-      <div id="main">
-         <div id="container">
-            
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="main.css">
+   <title>CSS Java Objects</title>
+</head>
+
+<body>
+
+   <div class="navigation" id="mynav">
+      <a href="#home" class="active">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="#about">About</a>
+   </div>
+
+   <header>
+      <h1>3 Picture Website</h1>
+      <h3>CSS Javascript Objects</h3>
+   </header>
+
+
+   <div class="slideshow">
+      <!-- The full-width images -->
+      <div class="slides fade">
+         <div class="numbertext">1 / 3</div>
+         <img src="forest.jpg" style="width:100%">
+         <div class="text">Forest</div>
+      </div>
+
+      <div class="slides fade">
+         <div class="numbertext">2 / 3</div>
+         <img src="lake.jpg" style="width:100%">
+         <div class="text">Lake</div>
+      </div>
+
+      <div class="slides fade">
+         <div class="numbertext">3 / 3</div>
+         <img src="road.jpg" style="width:100%">
+         <div class="text">Road</div>
+      </div>
+
+      <!-- The buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+   </div>
+
+   <div>
+      <canvas id="newCan" width="500" height="500"></canvas>
+   </div>
+
+   <div class="row">
+      <div class="col-75">
+         <div class="container">
+            <iframe width="500" height="500" src="https://www.youtube.com/embed/SaA_cs4WZHM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <video width="500" height="500" controls>
+               <source src="theducksong.mp4" type="video/mp4">
+            </video>
          </div>
       </div>
-   </body>
+   </div>
+   <script src="main.js"></script>
+</body>
+
 </html>

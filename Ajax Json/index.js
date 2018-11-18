@@ -9,7 +9,7 @@ function openJson(url, callback) {
       }
    }
 
-   xmlhttp.open("POST", url, true);
+   xmlhttp.open("get", url, true);
 
    xmlhttp.send();
 }

@@ -42,6 +42,13 @@
    transition: 0.3s;
 }
 
+.trans {
+   width: 100px;
+   height: 100px;
+   background-color: green;
+   border: 2px solid black;
+}
+
 #pic {
    width: 50%;
 }
@@ -51,6 +58,113 @@
    margin-left: 100px;
    margin-top: 15px;
    background-color: blue;
+}
+
+#hoverTransition {
+	width: 500px;
+	height: 50px;
+	background-color: #fff;
+	margin: 0px;
+}
+
+#square1 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s ease 0s;	
+}
+
+#square1:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#square2 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s ease-in 0s;	
+}
+
+#square2:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#square3 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s ease-out 0s;	
+}
+
+#square3:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#square4 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s ease-in-out 0s;	
+}
+
+#square4:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#square5 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s linear 0s;	
+}
+
+#square5:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#square6 {
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	transition: 2s steps(10) 0s;	
+}
+
+#square6:hover {
+	width: 500px;
+	background-color: green;
+}
+
+#theContainer {
+   width: 400px;
+   height: 400px;
+   position: relative;
+   background: Green;
+ }
+ #theAnimation {
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: red;
+ }
+
+ #trans1 {
+    -webkit-transform: rotateX(150deg); /* Safari */
+    transform: rotateX(150deg);
+ }
+
+ #trans2 {
+   -webkit-transform: rotateY(150deg); /* Safari */
+   transform: rotateY(150deg);
+}
+
+#trans3 {
+   -webkit-transform: rotateZ(150deg); /* Safari */
+   transform: rotateZ(150deg);
 }
 
 @keyframes bobble {

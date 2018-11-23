@@ -16,8 +16,8 @@
    </div>
 
    <header>
-      <h1>Testing, attention please</h1>
-      <h3>CSS Animations</h3>
+      <h1>Lots of CSS stuff</h1>
+      <h3>CSS Animations, Transitions, and Transforms</h3>
    </header>
 
    <div class="cloud">
@@ -40,6 +40,39 @@
          <input type="range" value="50" min="1" max="100" id="picWidth" oninput="adjustPercentage(this.value)" onchange="adjustPercentage(this.value)">
          <span id="picSlider"></span>
          <button class="myButton" type="button" onclick="changePictureSize()">Change picture size</button>
+      </div>
+   </div>
+
+   <div id="transitions">
+      <h4>Ease</h4>
+      <div id="hoverTransition">
+         <div id="square1"></div>
+      </div>
+      <h4>Ease-In</h4>
+      <div id="hoverTransition">
+         <div id="square2"></div>
+      </div>
+      <h4>Ease-Out</h4>
+      <div id="hoverTransition">
+         <div id="square3"></div>
+      </div>
+      <h4>Ease-In-Out</h4>
+      <div id="hoverTransition">
+         <div id="square4"></div>
+      </div>
+      <h4>Linear</h4>
+      <div id="hoverTransition">
+         <div id="square5"></div>
+      </div>
+      <h4>Stepped Transition</h4>
+      <div id="hoverTransition">
+         <div id="square6"></div>
+      </div>
+   </div>
+   <div id="movingBox">
+      <p><button onclick="move()">Move</button></p>
+      <div id="theContainer">
+         <div id="theAnimation"></div>
       </div>
    </div>
 

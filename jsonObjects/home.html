@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="home.js"></script>
+    <style>
+        .comment {
+            color:forestgreen;
+        }
+        li {
+            list-style: none;
+        }
+    </style>
+    <title>CIT261 - Keith Wheeler</title>
+</head>
+<body onload="populateMajors()">
+    <h1>JavaScript Objects and DOM</h1>
+    <div>
+        <form id="javascriptObjectData" action="" method="get">
+            <label for="name">Your Name</label><br>
+            <input id="name" type="text" name="name" placeholder="Name" /><br />
+            <label for="age">Your Age</label><br>
+            <input type="number" id="age" name="age" placeholder="25" />
+            <p>Your Major</p>
+            <ul id="majors">
+                <!-- placeholder for majors added through JS -->
+            </ul>
+            <input type="button" name="generate" id="generate" onclick="generateObject()" value="Generate Object" />
+        </form>
+    </div>
+    <br>   
+</body>
+</html>

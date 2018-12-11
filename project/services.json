@@ -1,0 +1,41 @@
+{
+  "sectionTitle" : "Our Services",
+  "services" : [
+    {
+      "name" : "Brakes",
+      "svcImage" : "images/brakes.jpg",
+      "subTitle" : "Get the stopping power you need",
+      "description" : "Driving down the road should not be stressful. Get your brakes done and have that peace of mind when you need to stop."
+    },
+    {
+      "name" : "Engine and Transmission",
+      "svcImage" : "images/engine.jpg",
+      "subTitle" : "Durable and Long-Lasting",
+      "description" : "We only use quality forged steel parts for any rebuild job to make sure your driveline lasts."
+    },
+    {
+      "name" : "Wheels and Tires",
+      "svcImage" : "images/wheel.jpg",
+      "subTitle" : "Stay on the road",
+      "description" : "Along with your brakes, get your Wheels and Tires done to feel comfortable going down the road."
+    },
+    {
+      "name" : "Body and Frame",
+      "svcImage" : "images/body.jpg",
+      "subTitle" : "Make your car smile",
+      "description" : "Having rusted body and frame parts make your car feel heavy and depressed. Get rid of that by revitalizing your cars body and frame."
+    },
+    {
+      "name" : "Electrical and Tuning",
+      "svcImage" : "images/tuning.jpg",
+      "subTitle" : "Increase HP and Torque",
+      "description" : "The best way to win a race is by a mile and a half. Refresh the electrical and get a tune to be a step above the competition."
+    },
+    {
+      "name" : "Turbo and Supercharging",
+      "svcImage" : "images/turbo.jpg",
+      "subTitle" : "The more the merrier",
+      "description" : "Alongside a tune, get a boost to your engine and increase that HP and Torque exponentially."
+    }
+  ]
+}
